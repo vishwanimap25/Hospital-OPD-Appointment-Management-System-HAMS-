@@ -1,13 +1,9 @@
-**Hospital OPD & Appointment Management System (HAMS)** repository, 
-based on the common structure and your current project context 
-(ASP.NET Core Web API, JWT Auth, Clean Architecture, etc.):
-
----
-
-```markdown
 # 🏥 Hospital OPD & Appointment Management System (HAMS)
 
-The **Hospital OPD & Appointment Management System (HAMS)** is a role-based ASP.NET Core Web API that allows for efficient management of hospital outpatient appointments, patient registrations, doctor availability, and medical records. The system is built following a clean architecture pattern, with layered responsibilities such as Services, Repositories, and DTOs. It includes robust JWT-based authentication and role-based authorization.
+The **Hospital OPD & Appointment Management System (HAMS)** is a role-based ASP.NET Core Web API that allows
+for efficient management of hospital outpatient appointments, patient registrations, doctor availability, and medical records.
+The system is built following a clean architecture pattern, with layered responsibilities such as Services, Repositories, and DTOs.
+It includes robust JWT-based authentication and role-based authorization.
 
 ---
 
@@ -27,7 +23,7 @@ The **Hospital OPD & Appointment Management System (HAMS)** is a role-based ASP.
 
 ## 📁 Project Structure
 
-```
+
 
 Hospital-OPD-Appointment-Management-System-HAMS
 │
@@ -45,7 +41,7 @@ Hospital-OPD-Appointment-Management-System-HAMS
 └── README.md             # You're here! Project documentation
 
 
-````
+
 
 ---
 
@@ -87,7 +83,7 @@ Hospital-OPD-Appointment-Management-System-HAMS
    ```bash
    git clone https://github.com/vishwanimap25/Hospital-OPD-Appointment-Management-System-HAMS-.git
    cd Hospital-OPD-Appointment-Management-System-HAMS-
-````
+
 
 2. **Update `appsettings.json`**
 
