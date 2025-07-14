@@ -29,18 +29,19 @@ The **Hospital OPD & Appointment Management System (HAMS)** is a role-based ASP.
 
 Hospital-OPD-Appointment-Management-System-HAMS
 │
-├── Controllers/               # API Controllers
-├── Data/                     # DbContext and EF Core Configuration
-├── DTOs/                     # Data Transfer Objects (DTOs)
-├── Models/                   # Entity Models
-├── Repositories/            # Repositories and Interfaces
-├── Services/                # Business Logic and Interfaces
-├── MappingProfiles/         # AutoMapper Configurations
-├── Migrations/              # EF Core Migrations
-├── Middleware/              # Global Exception Handling
-├── Program.cs               # Application Startup
-├── appsettings.json         # Configuration Settings
-└── README.md                # Project Documentation (you are here)
+├── Controllers/          # API Controllers (e.g., Patient, Doctor, Appointment)
+├── Data/                 # DbContext and EF Core Configuration
+├── DTOs/                 # Data Transfer Objects used between API and Client
+├── Models/               # Entity Models representing database tables
+├── Repositories/         # Interfaces and classes for data access logic
+├── Services/             # Business Logic Layer and service interfaces
+├── MappingProfiles/      # AutoMapper profiles for DTO-Entity mapping
+├── Migrations/           # EF Core Migrations for DB schema evolution
+├── Middleware/           # Custom Middleware (e.g., Global Exception Handling)
+├── Program.cs            # Application Startup and configuration
+├── appsettings.json      # Application Configuration (DB, JWT, etc.)
+└── README.md             # You're here! Project documentation
+
 
 ````
 
