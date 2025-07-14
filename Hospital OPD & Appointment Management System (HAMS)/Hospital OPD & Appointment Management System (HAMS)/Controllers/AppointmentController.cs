@@ -1,5 +1,4 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Appointment_dto_folder;
-using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +8,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class AppointmentController : Controller
+    public class AppointmentController : ControllerBase
     {
         private readonly IAppointmentServices _service;
 
@@ -18,56 +17,82 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
             _service = service;
         }
 
-        //(1)Create new Appointments
+        // (1) Create new Appointment
         [HttpPost("CreateAppointment")]
-        [Authorize(Roles = "Receptionist,Admin")]
-        public async Task<ActionResult<DoctorReadDto>> CreateAppointment([FromBody]AppointmentCreateDto dto)
+        [Authorize(Roles = "Reception,Admin")]
+        public async Task<ActionResult<AppointmentReadDto>> CreateAppointment([FromBody] AppointmentCreateDto dto)
         {
-            var createapot = await _service.CreateAppointmentsAync(dto);
-            if(createapot == null) {return BadRequest("Enter Appointment details"); }
-            return Ok(createapot);
+            try
+            {
+                var createdAppt = await _service.CreateAppointmentsAync(dto);
+
+                return CreatedAtAction(nameof(GetAppointmentById), new { id = createdAppt.Id }, createdAppt);
+                // Or just: return Ok(createdAppt);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return NotFound(ex.Message); // e.g. "Doctor or Patient not found"
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An error occurred while creating the appointment.");
+            }
         }
 
-        //(2)Get all Appointments
+        // (2) Get all Appointments
         [HttpGet("GetAllAppointments")]
-        [Authorize(Roles = "Receptionist,Admin")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<ActionResult<IEnumerable<AppointmentReadDto>>> GetAllAppointments()
         {
-            var getapots = await _service.GetAllAppointmentsAync();
-            if(getapots == null) {return NotFound();}
-            return Ok(getapots);
+            var appointments = await _service.GetAllAppointmentsAync();
+            if (appointments == null || !appointments.Any())
+            {
+                return NotFound("No appointments found.");
+            }
+
+            return Ok(appointments);
         }
 
-        //(3)Get Appointments by Id
+        // (3) Get Appointment by Id
         [HttpGet("GetAppointmentById/{id}")]
-        [Authorize(Roles = "Receptionist,Admin")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<ActionResult<AppointmentReadDto>> GetAppointmentById(int id)
         {
-            var getapot = await _service.GetAppointmentByIdAsync(id);
-            if (getapot == null) { return NotFound("Appointment is not present"); }
-            return Ok(getapot);
+            var appointment = await _service.GetAppointmentByIdAsync(id);
+            if (appointment == null)
+            {
+                return NotFound("Appointment not found.");
+            }
+
+            return Ok(appointment);
         }
 
-        //(4)Update Appointments
+        // (4) Update Appointment
         [HttpPut("UpdateAppointment/{id}")]
-        [Authorize(Roles = "Receptionist,Admin")]
-        public async Task<IActionResult> UpdateAppointment(int id, AppointmentCreateDto dto)
+        [Authorize(Roles = "Reception,Admin")]
+        public async Task<IActionResult> UpdateAppointment(int id, [FromBody] AppointmentCreateDto dto)
         {
-            var apot = await _service.UpdateAppointmentAsync(id, dto);
-            if (apot == null) { return NotFound(); }
-            return Ok("Appointment Updated");
+            var updated = await _service.UpdateAppointmentAsync(id, dto);
+            if (updated == null)
+            {
+                return NotFound("Appointment not found or update failed.");
+            }
+
+            return Ok("Appointment updated successfully.");
         }
 
-        //(5)Delete Appointments
+        // (5) Delete Appointment
         [HttpDelete("DeleteAppointment/{id}")]
-        [Authorize(Roles = "Receptionist,Admin")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<IActionResult> DeleteAppointment(int id)
         {
-            var apot = await _service.DeleteAppointmentAsync(id);
-            if (apot == null) { return BadRequest("Enter Valid Id"); }
-            return Ok("Appointment Deleted");
+            var deleted = await _service.DeleteAppointmentAsync(id);
+            if (deleted == null)
+            {
+                return BadRequest("Invalid appointment ID or deletion failed.");
+            }
+
+            return Ok("Appointment deleted successfully.");
         }
-
-
     }
 }

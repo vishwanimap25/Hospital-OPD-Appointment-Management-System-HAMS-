@@ -19,6 +19,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(1) Get All Doctors
         [HttpGet("GetAllDoctors")]
+        [Authorize(Roles = "Admin,Doctor")]
         public async Task<ActionResult<IEnumerable<DoctorReadDto>>> GetAllDoctors()
         {
             var doctors = await _service.GetAllDoctors();
@@ -27,6 +28,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(2) Get Doctors by Id
         [HttpGet("GetDoctorById/{id}")]
+        [Authorize(Roles = "Admin,Doctor")]
         public async Task<ActionResult<DoctorReadDto>> GetDoctorById(int id)
         {
             var doctor = await _service.GetDoctorById(id);
@@ -39,6 +41,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(3) Create new Doctor
         [HttpPost("CreateDoctor")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<DoctorReadDto>> CreateDoctor([FromBody] DoctorCreateDto dto)
         {
             var createdoctor = await _service.CreateDoctor(dto);
@@ -49,7 +52,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(4) Update Doctors
         [HttpPut("UpdateDoctor/{id}")]
-        [Authorize(Roles = "Admin,Doctor")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateDoctor(int id, DoctorCreateDto dto)
         {
             var result = await _service.UpdateDoctor(id, dto);
@@ -61,6 +64,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(5) Delete Doctors
         [HttpDelete("DeleteDoctor/{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteDoctor (int id)
         {
             var doctor = await _service.DeleteDoctor(id);

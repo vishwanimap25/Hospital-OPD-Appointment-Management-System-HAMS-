@@ -3,8 +3,8 @@
     public class AppConstants
     {
         public const string Admin = "Admin";
+        public const string Reception = "Reception";
         public const string Doctor = "Doctor";
-        public const string Receptionist = "Receptionist";
 
         public const int MaxAppointmentsPerDay = 30;
         public const string DefaultPassword = "Welcome@123";

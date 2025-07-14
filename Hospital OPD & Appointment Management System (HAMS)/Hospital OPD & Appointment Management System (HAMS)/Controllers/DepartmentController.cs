@@ -1,6 +1,7 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Department_Dto;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
@@ -18,6 +19,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(1)Create New Department
         [HttpPost("CreateDepartment")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateDepartment([FromBody]DepartmentCreateDto dto)
         {
             
@@ -31,6 +33,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(2)Get All Department 
         [HttpGet("GetAllDepartment")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<ActionResult<IEnumerable<Department>>> GetAllDepartment()
         {
             var dept = await _service.GetAllDepartement();
@@ -40,6 +43,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(3)Get Dept by Id
         [HttpGet("GetDepartmentById/{id}")]
+        [Authorize(Roles = "Reception, Admin")]
         public async Task<IActionResult> GetDepartmentById(int id)
         {
             var dept = await _service.GetDepartmentById(id);
@@ -49,6 +53,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(4)Update Department
         [HttpPut("UpdateDepartment/{id}")]
+        [Authorize(Roles = "Reception, Admin")]
         public async Task<ActionResult<Department>> UpdateDepartment(int id, [FromBody] DepartmentCreateDto dto)
         {
             var dept = await _service.GetDepartmentById(id);
@@ -62,6 +67,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(5)Delete Department
         [HttpDelete("DeleteDepartmentById/{id}")]
+        [Authorize(Roles = "Reception, Admin")]
         public async Task<IActionResult> DeleteDepartmentById(int id)
         {
             try

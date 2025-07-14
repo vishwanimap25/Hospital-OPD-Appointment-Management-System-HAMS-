@@ -1,6 +1,7 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Patient_dto_folder;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
@@ -19,6 +20,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(1)Create Patient
         [HttpPost("CreatePatient")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreatePatient([FromBody] PatientCreateDto dto)
         {
             var createpatient = await _service.CreatePatientAsync(dto);
@@ -28,6 +30,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(2)Get all Patient
         [HttpGet("GetAllPatient")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<ActionResult<IEnumerable<Patient>>> GetAllPatient()
         {
             var patient = await _service.GetAllPatientsAsync();
@@ -36,6 +39,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(3)Get Patient By id
         [HttpGet("GetPatientById/{id}")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<ActionResult<Patient>> GetPatientById(int id)
         {
             var patient = await _service.GetPatientByIdAsync(id);
@@ -45,6 +49,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(4)Get Patient By Name || email
         [HttpGet("GetPatientByNameEmail")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<ActionResult<Patient>> GetPatientByNameEmail([FromQuery]string? name, [FromQuery]string? email, [FromQuery]string? phone)
         {
             //do not use [FromBody] with multiple paramerters
@@ -57,6 +62,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(5)Update Patient Details
         [HttpPut("UpdatePatient/{id}")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<IActionResult> UpdatePatient( int id, [FromBody] PatientCreateDto dto)
         {
             var patient = await _service.UpdatePatientAsync(id, dto);
@@ -67,6 +73,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(6)Delete Patient
         [HttpDelete("DeletePatient/{id}")]
+        [Authorize(Roles = "Reception,Admin")]
         public async Task<IActionResult> DeletePatient(int id)
         {
             var patient = await _service.DeletePatientAsync(id);

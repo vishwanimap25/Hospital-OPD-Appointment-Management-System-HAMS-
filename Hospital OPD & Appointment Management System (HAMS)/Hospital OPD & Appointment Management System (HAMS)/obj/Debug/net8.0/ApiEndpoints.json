@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder.DoctorReadDto",
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Appointment_dto_folder.AppointmentReadDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

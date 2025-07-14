@@ -10,50 +10,69 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
         private readonly IAppointmentRepository _repo;
         private readonly IPatientRepository _patientrepo;
         private readonly IDoctorRepository _doctorepo;
+        private readonly IEmailService _emailservice;
 
-        public AppointmentServices(IAppointmentRepository repo, IPatientRepository patientrepo, IDoctorRepository doctorepo)
+        public AppointmentServices(IAppointmentRepository repo, IPatientRepository patientrepo, IDoctorRepository doctorepo, IEmailService emailservice)
         {
             _repo = repo;
             _patientrepo = patientrepo;
             _doctorepo = doctorepo;
+            _emailservice = emailservice;
         }
 
         public async Task<AppointmentReadDto> CreateAppointmentsAync(AppointmentCreateDto dto)
         {
-            var patient = await _patientrepo.GetIdByAsync(dto.PatientId);
-            var doctor = await _doctorepo.GetIdByAsync(dto.DoctorId);
-
-            if (patient == null || doctor == null)
+            try
             {
-                throw new Exception("Patient or Doctor not found");
+                var patient = await _patientrepo.GetIdByAsync(dto.PatientId);
+                var doctor = await _doctorepo.GetIdByAsync(dto.DoctorId);
+
+                if (patient == null || doctor == null)
+                    throw new InvalidOperationException("Patient or Doctor not found");
+
+                var appointment = new Appointment
+                {
+                    PatientId = dto.PatientId,
+                    DoctorId = dto.DoctorId,
+                    AppointmentDate = dto.AppointmentDate,
+                    Reason = dto.Reason,
+                    Status = dto.Status,
+                    CreatedAt = DateTime.UtcNow
+                };
+
+                await _repo.AddAsync(appointment);
+                await _repo.SaveChangesAsync();
+
+                string subject = "Appointment Confirmation";
+                string body = $@"
+                 <p>Dear <strong>{patient.FullName}</strong>,</p>
+                 <p>Your appointment with <strong>Dr. {doctor.FullName}</strong> is confirmed for <strong>{dto.AppointmentDate:dddd, MMMM dd, yyyy hh:mm tt}</strong>.</p>
+                 <p><em>Reason:</em> {dto.Reason}</p>
+                 <br/>
+                 <p>Thank you,<br/>Hospital OPD & Appointment Management System</p>";
+
+                await _emailservice.SendEmailAsync(patient.Email, subject, body);
+
+                return new AppointmentReadDto
+                {
+                    Id = appointment.Id,
+                    PatientId = appointment.PatientId,
+                    PatientName = patient.FullName,
+                    DoctorId = appointment.DoctorId,
+                    DoctorName = doctor.FullName,
+                    AppointmentDate = appointment.AppointmentDate,
+                    Reason = appointment.Reason,
+                    Status = appointment.Status,
+                    CreatedAt = appointment.CreatedAt
+                };
             }
-
-            var appointment = new Appointment
+            catch (Exception ex)
             {
-                PatientId = dto.PatientId,
-                DoctorId = dto.DoctorId,
-                AppointmentDate = dto.AppointmentDate,
-                Reason = dto.Reason,
-                Status = dto.Status,
-                CreatedAt = DateTime.UtcNow,
-            };
-
-            await _repo.AddAsync(appointment);
-            await _repo.SaveChangesAsync();
-
-            return new AppointmentReadDto
-            {
-                Id = appointment.Id,
-                PatientId = appointment.PatientId,
-                PatientName = patient.FullName,      
-                DoctorId = appointment.DoctorId,
-                DoctorName = doctor.FullName,       
-                AppointmentDate = appointment.AppointmentDate,
-                Reason = appointment.Reason,
-                Status = appointment.Status,
-                CreatedAt = appointment.CreatedAt
-            };
+                Console.WriteLine($"[ERROR] AppointmentService: {ex.Message}");
+                throw;
+            }
         }
+
 
 
         public async Task<bool> DeleteAppointmentAsync(int id)

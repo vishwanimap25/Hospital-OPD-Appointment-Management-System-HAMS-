@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Data;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Helpers;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Interfaces;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Services;
@@ -29,6 +30,8 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //builder.Services.AddAutoMapper(typeof(MappingProfile));
 //builder.Services.AddAutoMapper(typeof(Program));
 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
 
 //DI for Repositories and Services
 //(1)For Doctor
@@ -43,6 +46,8 @@ builder.Services.AddScoped<IDepartmentServices, DepartmentServices>();
 //(4)For Appointment
 builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
 builder.Services.AddScoped<IAppointmentServices, AppointmentServices>();
+//(5)For Email
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 
 builder.Services.AddSwaggerGen(c =>
@@ -79,25 +84,29 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-var key = builder.Configuration["Jwt:Key"];
-if (string.IsNullOrEmpty(key)) { throw new Exception("JWT key is not configured in appsettings.json"); }
+//var key = builder.Configuration["Jwt:Key"];
+//if (string.IsNullOrEmpty(key)) { throw new Exception("JWT key is not configured in appsettings.json"); }
+
+var jwtSettings = builder.Configuration.GetSection("Jwt").Get<JwtHelper>();
+var key = jwtSettings.Key;
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = false,
-            ValidateActor = false,
+            ValidateIssuer = true,
+            ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtSettings.Issuer,
+            ValidAudience = jwtSettings.Audience,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
         };
-
     });
 
-builder.Services.AddAuthentication();
 builder.Services.AddHttpContextAccessor();
+
 
 var app = builder.Build();
 

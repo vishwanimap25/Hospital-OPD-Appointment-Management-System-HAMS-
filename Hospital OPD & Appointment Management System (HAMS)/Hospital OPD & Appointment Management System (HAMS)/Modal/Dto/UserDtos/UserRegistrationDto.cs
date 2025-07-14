@@ -12,7 +12,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.UserDtos
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Role is required.")]
-        [RegularExpression("^(Admin|Doctor|Reception)$", ErrorMessage = "Role must be 'Admin', 'Doctor', or 'Patient'.")]
+        [RegularExpression("^(Admin|Doctor|Reception)$", ErrorMessage = "Role must be 'Admin', 'Doctor', or 'Reception'.")]
         public string Role { get; set; }
     }
 }
