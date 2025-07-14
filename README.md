@@ -1,4 +1,6 @@
-Here’s a detailed `README.md` file for your **Hospital OPD & Appointment Management System (HAMS)** repository, based on the common structure and your current project context (ASP.NET Core Web API, JWT Auth, Clean Architecture, etc.):
+**Hospital OPD & Appointment Management System (HAMS)** repository, 
+based on the common structure and your current project context 
+(ASP.NET Core Web API, JWT Auth, Clean Architecture, etc.):
 
 ---
 
