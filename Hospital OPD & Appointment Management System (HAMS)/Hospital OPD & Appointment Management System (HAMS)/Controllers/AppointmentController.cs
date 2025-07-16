@@ -26,7 +26,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
             {
                 var createdAppt = await _service.CreateAppointmentsAync(dto);
 
-                return CreatedAtAction(nameof(GetAppointmentById), new { id = createdAppt.Id }, createdAppt);
+                return Ok(createdAppt);
                 // Or just: return Ok(createdAppt);
             }
             catch (InvalidOperationException ex)

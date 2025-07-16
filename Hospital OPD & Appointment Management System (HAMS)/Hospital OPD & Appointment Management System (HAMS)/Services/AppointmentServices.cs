@@ -48,6 +48,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
                  <p>Dear <strong>{patient.FullName}</strong>,</p>
                  <p>Your appointment with <strong>Dr. {doctor.FullName}</strong> is confirmed for <strong>{dto.AppointmentDate:dddd, MMMM dd, yyyy hh:mm tt}</strong>.</p>
                  <p><em>Reason:</em> {dto.Reason}</p>
+                 <p><em>Status:</em> {dto.Status}</p>
                  <br/>
                  <p>Thank you,<br/>Hospital OPD & Appointment Management System</p>";
 
