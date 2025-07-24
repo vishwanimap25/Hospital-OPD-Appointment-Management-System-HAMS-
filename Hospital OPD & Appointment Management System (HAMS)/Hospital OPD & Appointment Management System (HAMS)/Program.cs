@@ -48,6 +48,8 @@ builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
 builder.Services.AddScoped<IAppointmentServices, AppointmentServices>();
 //(5)For Email
 builder.Services.AddScoped<IEmailService, EmailService>();
+//(6)For Medical Records
+builder.Services.AddScoped<IMedicalRecordService, MedicalRecordServices>();
 
 
 builder.Services.AddSwaggerGen(c =>

@@ -1,26 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\",
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\source\\hmas\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\appointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\appointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\source\\hmas\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\source\\hmas\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\source\\hmas\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\modal\\entities\\medicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\modal\\entities\\medicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\interfaces\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\interfaces\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\medicalrecordservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\medicalrecordservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\source\\hmas\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\modal\\dto\\appointment dto folder\\appointmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\modal\\dto\\appointment dto folder\\appointmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\modal\\dto\\appointment dto folder\\appointmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|c:\\users\\nimap\\desktop\\new hams\\hospital opd \u0026 appointment management system (hams)\\hospital opd \u0026 appointment management system (hams)\\services\\appointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6D98D0-D9F7-404F-AE00-BCD5513BEE9A}|Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS).csproj|solutionrelative:hospital opd \u0026 appointment management system (hams)\\services\\appointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +70,220 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppointmentCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
-              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
-              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Program.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Program.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:26:16.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
-              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:23:18.187Z",
+              "WhenOpened": "2025-07-24T09:57:41.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:23:11.22Z",
+              "WhenOpened": "2025-07-24T09:56:11.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:56:09.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:56:00.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:55:59.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicalRecordController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\MedicalRecordController.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\MedicalRecordController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\MedicalRecordController.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\MedicalRecordController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:34:20.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Data\\ApplicationDBcontext.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Data\\ApplicationDBcontext.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Data\\ApplicationDBcontext.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Data\\ApplicationDBcontext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:24:36.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicalRecordServices.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\MedicalRecordServices.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\MedicalRecordServices.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\MedicalRecordServices.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\MedicalRecordServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:18:34.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicalRecords.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Entities\\MedicalRecords.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Entities\\MedicalRecords.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Entities\\MedicalRecords.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Entities\\MedicalRecords.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:53:04.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMedicalRecordService.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IMedicalRecordService.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IMedicalRecordService.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IMedicalRecordService.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IMedicalRecordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:11:56.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppointmentCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Appointment dto folder\\AppointmentCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:26:16.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\EmailService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:23:18.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:23:11.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AppointmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AppointmentController.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAjwBcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAjwEsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T09:17:54.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "AppointmentServices.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\AppointmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\AppointmentServices.cs",
               "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\AppointmentServices.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\HMAS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\AppointmentServices.cs",
+              "ToolTip": "C:\\Users\\Nimap\\Desktop\\new HAMS\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\AppointmentServices.cs",
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\AppointmentServices.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAWwDIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T13:28:58.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T13:28:58.322Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

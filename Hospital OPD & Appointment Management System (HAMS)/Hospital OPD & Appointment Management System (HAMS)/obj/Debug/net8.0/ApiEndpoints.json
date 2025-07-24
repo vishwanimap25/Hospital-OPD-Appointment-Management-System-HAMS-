@@ -250,6 +250,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.MedicalRecordController",
+    "Method": "AddMedRec",
+    "RelativePath": "api/MedicalRecord/AddMedicalRecords",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities.MedicalRecords",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.MedicalRecordController",
+    "Method": "GetAll",
+    "RelativePath": "api/MedicalRecord/GetAllMedicalRecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.MedicalRecordController",
+    "Method": "GetByPatientId",
+    "RelativePath": "api/MedicalRecord/GetByPatientId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.MedicalRecordController",
+    "Method": "GetById",
+    "RelativePath": "api/MedicalRecord/GetMRbyId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.PatientController",
     "Method": "CreatePatient",
     "RelativePath": "api/Patient/CreatePatient",

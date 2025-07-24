@@ -22,7 +22,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Data
         public DbSet<Patient> Patient { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<Department> Department { get; set; }
-
+        public DbSet<MedicalRecords> MedicalRecords { get; set; }
 
     }
 
