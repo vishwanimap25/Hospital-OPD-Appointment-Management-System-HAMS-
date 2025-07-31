@@ -1,0 +1,81 @@
+name: dockercompose1430780280127492576
+services:
+  hams:
+    build:
+      context: C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\Hospital OPD & Appointment Management System (HAMS)
+      dockerfile: Dockerfile
+    depends_on:
+      sql-server:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    networks:
+      hams-network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        published: "8081"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    restart: on-failure
+    volumes:
+      - type: bind
+        source: C:\Users\Nimap\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Nimap\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Nimap\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Nimap\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  sql-server:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: password12345!
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      hams-network: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: sqlvolume
+        target: /var/opt/mssql
+        volume: {}
+networks:
+  hams-network:
+    name: dockercompose1430780280127492576_hams-network
+volumes:
+  sqlvolume:
+    name: dockercompose1430780280127492576_sqlvolume

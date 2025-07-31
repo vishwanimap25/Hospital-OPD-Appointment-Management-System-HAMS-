@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("50b6e6a7-b67e-4c8d-986b-0cf150d86e05")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hospital OPD & Appointment Management System (HAMS)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+063ec33ff6b51913d7a5bd25deeb74a01f30e850")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c74887c48690480866130dbfc2593931ec6ccc16")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hospital OPD & Appointment Management System (HAMS)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hospital OPD & Appointment Management System (HAMS)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

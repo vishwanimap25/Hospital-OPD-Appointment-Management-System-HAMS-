@@ -1,0 +1,42 @@
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Hospital OPD & Appointment Management System (HAMS).deps.json
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Hospital OPD & Appointment Management System (HAMS).runtimeconfig.json
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\appsettings.Development.json
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\appsettings.json
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Hospital OPD & Appointment Management System (HAMS).staticwebassets.endpoints.json
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Hospital OPD & Appointment Management System (HAMS).exe
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Hospital OPD & Appointment Management System (HAMS).dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\AutoMapper.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\MimeKit.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\MailKit.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\Hospital OPD & Appointment Management System (HAMS).pdb
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\new HAMS\Hospital OPD & Appointment Management System (HAMS)\obj\Debug\docker-c.35A3FFBA.Up2Date
